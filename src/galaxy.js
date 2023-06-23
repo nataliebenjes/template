@@ -17,4 +17,7 @@
     addMarsAge () {
       this.marsAge = this.age * 1.88;
     }
+    addJupiterAge () {
+      // this.jupiterAge = this.age * 11.86;
+    }
   }

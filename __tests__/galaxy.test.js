@@ -28,4 +28,8 @@ describe("Person",  () => {
     person.addMarsAge();
     expect(person.marsAge).toEqual(65.8)
   })
+  test("calculate jupiterAge", () => {
+    person.addJupiterAge();
+    expect(person.jupiterAge).toEqual(415.1);
+  })
 })
