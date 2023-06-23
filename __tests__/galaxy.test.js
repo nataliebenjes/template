@@ -19,6 +19,9 @@ describe("Person",  () => {
   test("calculate murcury age", () => {
     person.addMurcuryAge();
     expect(person.murcuryAge).toEqual(8.4);
-
+  })
+  test("caculate venusAge", () => {
+    person.addVenusAge();
+    expect(person.venusAge).toEqual(21.7);
   })
 })

@@ -11,4 +11,7 @@
     addMurcuryAge() {
       this.murcuryAge = this.age * .24;
     }
+    addVenusAge() {
+      // this.venusAge = this.age * 21.7;
+    }
   }
