@@ -20,7 +20,13 @@
     addJupiterAge () {
       this.jupiterAge = Math.round(10*this.age / 11.86)/10;
     }
-    ageSinceBirthday () {
-
+    ageSinceBirthday (priorAge) {
+      // let earthDiff = this.age - priorAge;
+      // let murcDiff = Math.round(10 * earthDiff / .24)/10;
+      // let venusDiff = Math.round(10*earthDiff / .62)/10;
+      // let marsDiff = Math.round(10*earthDiff/ 1.88)/10;
+      // let jupDiff = Math.round(10*earthDiff / 11.86)/10;
+      // return `${earthDiff} Earth years have passed. ${murcDiff} Mercury years have passed. ${venusDiff} Venus years have passed. ${marsDiff} Mars years have passed. ${jupDiff} Jupiter years have passed.`;
     }
+
   }
