@@ -15,6 +15,6 @@
       this.venusAge = this.age * .62;
     }
     addMarsAge () {
-      // this.marsAge = this.age * 1.88;
+      this.marsAge = this.age * 1.88;
     }
   }

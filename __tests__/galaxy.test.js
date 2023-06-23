@@ -26,6 +26,6 @@ describe("Person",  () => {
   })
   test("calculate marsAge", () => {
     person.addMarsAge();
-    expect(person.addMarsAge).toEqual(65.8)
+    expect(person.marsAge).toEqual(65.8)
   })
 })
