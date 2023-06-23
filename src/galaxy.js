@@ -9,15 +9,18 @@
       this.jupiterAge = 0;
     }
     addMurcuryAge() {
-      this.murcuryAge = this.age * .24;
+      this.murcuryAge = Math.round(10*this.age / .24)/10;
     }
     addVenusAge() {
-      this.venusAge = this.age * .62;
+      this.venusAge = Math.round(10*this.age / .62)/10;
     }
     addMarsAge () {
-      this.marsAge = this.age * 1.88;
+      this.marsAge = Math.round(10*this.age / 1.88)/10;
     }
     addJupiterAge () {
-      this.jupiterAge = Math.round(10*this.age * 11.86)/10;
+      this.jupiterAge = Math.round(10*this.age / 11.86)/10;
+    }
+    ageSinceBirthday () {
+
     }
   }
