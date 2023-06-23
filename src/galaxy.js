@@ -18,6 +18,6 @@
       this.marsAge = this.age * 1.88;
     }
     addJupiterAge () {
-      // this.jupiterAge = this.age * 11.86;
+      this.jupiterAge = Math.round(10*this.age * 11.86)/10;
     }
   }
