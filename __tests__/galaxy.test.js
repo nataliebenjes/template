@@ -1,4 +1,4 @@
-import Person from './../src/js/galaxy.js';
+import Person from './../src/galaxy.js';
 
 describe("Person",  () => {
 
