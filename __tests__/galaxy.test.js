@@ -39,6 +39,6 @@ describe("Person",  () => {
     person.addJupiterAge ();
     let result = person.ageSinceBirthday(10);
     person.ageSinceBirthday(10);
-    expect(result).toEqual("25 Earth years have passed. 104.2 Mercury years have passed. 40.3 Venus years have passed. 1.88 Mars years have passed. 2.1 Jupiter years have passed.");
+    expect(result).toEqual("25 Earth years have passed. 104.2 Mercury years have passed. 40.3 Venus years have passed. 13.3 Mars years have passed. 2.1 Jupiter years have passed.");
   })
 })
