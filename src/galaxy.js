@@ -9,6 +9,6 @@
       this.jupiterAge = 0;
     }
     addMurcuryAge() {
-      // this.murcuryAge = this.age * .24;
+      this.murcuryAge = this.age * .24;
     }
   }
